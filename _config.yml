@@ -1,13 +1,8 @@
 theme: minima
 title: "Програмування мовою C# — Методичний посібник (Частина 1)"
-description: "Конспект лекцій і лабораторний практикум для студентів спеціальності «Професійна освіта (Цифрові технології)»"
+description: "Повний конспект лекцій і лабораторних робіт"
 markdown: GFM
 plugins:
   - jekyll-seo-tag
   - jekyll-feed
   - jekyll-sitemap
-header_pages:
-  - index.md
-  - lectures/00_contents.md
-  - labs/index.md
-  - docs/index.md
