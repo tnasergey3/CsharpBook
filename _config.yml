@@ -1,7 +1,13 @@
 theme: minima
-title: "C# Programming Course – Part 1"
-description: "Навчальний посібник з програмування мовою C#"
+title: "Програмування мовою C# — Методичний посібник (Частина 1)"
+description: "Конспект лекцій і лабораторний практикум для студентів спеціальності «Професійна освіта (Цифрові технології)»"
 markdown: GFM
 plugins:
-  - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-feed
+  - jekyll-sitemap
+header_pages:
+  - index.md
+  - lectures/00_contents.md
+  - labs/index.md
+  - docs/index.md

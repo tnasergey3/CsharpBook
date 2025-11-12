@@ -1,1 +1,5 @@
-# Посібник зі встановлення Visual Studio та .NET SDK
+# Встановлення середовищ
+
+- Завантажити .NET SDK LTS
+- Встановити Visual Studio або VS Code
+- Додати C# Dev Kit

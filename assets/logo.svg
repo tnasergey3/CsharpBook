@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="80" viewBox="0 0 320 80">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0ea5e9"/>
+      <stop offset="1" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="320" height="80" fill="#0b1220"/>
+  <g transform="translate(16,18)">
+    <rect x="0" y="0" width="44" height="44" rx="10" fill="url(#g)"/>
+    <text x="64" y="22" font-family="Segoe UI, Arial" font-size="18" fill="#93c5fd">Програмування мовою C#</text>
+    <text x="64" y="40" font-family="Segoe UI, Arial" font-size="12" fill="#e5e7eb">Методичний посібник • Частина 1</text>
+  </g>
+</svg>
