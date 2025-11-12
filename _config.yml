@@ -1,0 +1,7 @@
+theme: minima
+title: "C# Programming Course – Part 1"
+description: "Навчальний посібник з програмування мовою C#"
+markdown: GFM
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
