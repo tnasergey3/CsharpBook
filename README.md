@@ -150,7 +150,7 @@
 ### Необхідне програмне забезпечення
 
 **Для Windows:**
-- [Visual Studio 2022 Community Edition](https://visualstudio.microsoft.com/uk/vs/community/) (безкоштовна)
+- [Visual Studio 2022 Community Edition](https://visualstudio.microsoft.com/free-developer-offers/) (безкоштовна)
 - [.NET SDK 8.0](https://dotnet.microsoft.com/download) або новіша версія
 
 **Для macOS/Linux:**
