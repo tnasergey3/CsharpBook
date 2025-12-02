@@ -1,0 +1,140 @@
+# Jekyll Configuration for GitHub Pages
+
+# Site Settings
+title: "Конспект лекцій та лабораторний практикум з програмування на C#"
+description: "Навчальний посібник з дисципліни 'Програмування' для студентів спеціальності Професійна освіта (Цифрові технології)"
+author: "Д.Ю. Борисов, С.В. Горчинський"
+email: "tech.edu@chnpu.edu.ua"
+url: "https://yourusername.github.io"
+baseurl: "/csharp-programming-course"
+
+# Organization
+organization:
+  name: "Чернігівський національний педагогічний університет імені Т.Г. Шевченка"
+  faculty: "Технологічний факультет"
+  department: "Кафедра технологічної освіти та інформатики"
+
+# Repository
+repository: "yourusername/csharp-programming-course"
+
+# Theme
+theme: jekyll-theme-cayman
+# Альтернативні теми:
+# - jekyll-theme-minimal
+# - jekyll-theme-modernist
+# - jekyll-theme-architect
+# - jekyll-theme-slate
+# - jekyll-theme-merlot
+# - jekyll-theme-time-machine
+# - jekyll-theme-leap-day
+# - jekyll-theme-tactile
+# - jekyll-theme-dinky
+
+# Build settings
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: 'highlight'
+    span:
+      line_numbers: false
+    block:
+      line_numbers: true
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-mentions
+  - jekyll-redirect-from
+  - jekyll-relative-links
+
+# Relative Links
+relative_links:
+  enabled: true
+  collections: true
+
+# Collections (для організації контенту)
+collections:
+  lectures:
+    output: true
+    permalink: /lectures/:name/
+  labs:
+    output: true
+    permalink: /labs/:name/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "lectures"
+    values:
+      layout: "default"
+      author: "Д.Ю. Борисов, С.В. Горчинський"
+  - scope:
+      path: ""
+      type: "labs"
+    values:
+      layout: "default"
+      author: "Д.Ю. Борисов, С.В. Горчинський"
+
+# Navigation
+navigation:
+  - title: "Головна"
+    url: /
+  - title: "Лекції"
+    url: /docs/lectures/
+  - title: "Лабораторні"
+    url: /docs/labs/
+  - title: "Ресурси"
+    url: /resources/
+  - title: "GitHub"
+    url: https://github.com/yourusername/csharp-programming-course
+
+# Social Links
+social:
+  github: yourusername
+  email: tech.edu@chnpu.edu.ua
+
+# Copyright
+copyright:
+  year: 2024
+  license: "CC BY-SA 4.0"
+  license_url: "https://creativecommons.org/licenses/by-sa/4.0/"
+
+# Google Analytics (optional)
+# google_analytics: UA-XXXXXXXXX-X
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - README_DEV.md
+  - conversion/
+  - examples/**/*.csproj
+  - examples/**/*.sln
+  - examples/**/bin/
+  - examples/**/obj/
+
+# Include
+include:
+  - _pages
+  - .htaccess
+
+# Sass/SCSS
+sass:
+  sass_dir: assets/css
+  style: compressed
+
+# Timezone
+timezone: Europe/Kiev
+
+# Language
+lang: uk
