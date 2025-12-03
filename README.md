@@ -150,12 +150,12 @@
 ### Необхідне програмне забезпечення
 
 **Для Windows:**
-- [Visual Studio 2022 Community Edition](https://visualstudio.microsoft.com/free-developer-offers/) (безкоштовна)
-- [.NET SDK 8.0](https://dotnet.microsoft.com/download) або новіша версія
+- [Visual Studio Community Edition](https://visualstudio.microsoft.com/free-developer-offers/) (безкоштовна)
+- [.NET SDK](https://dotnet.microsoft.com/download) або новіша версія
 
 **Для macOS/Linux:**
 - [Visual Studio Code](https://code.visualstudio.com/)
-- [.NET SDK 8.0](https://dotnet.microsoft.com/download)
+- [.NET SDK](https://dotnet.microsoft.com/download)
 - Розширення C# для VS Code
 
 **Система контролю версій:**
