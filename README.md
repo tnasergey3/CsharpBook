@@ -3,7 +3,7 @@
 [![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
 [![GitHub](https://img.shields.io/badge/GitHub-Repository-blue.svg)](https://github.com)
 
-> **Проєтк навчального посібника з дисципліни "Програмування"**  
+> **Проєкт навчального посібника з дисципліни "Програмування"**  
 > для студентів ОП **Професійна освіта (Цифрові технології)**
 
 **Автори:**  
