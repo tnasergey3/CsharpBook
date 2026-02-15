@@ -24,8 +24,7 @@
 8. Яка структура програми на мові програмування С#.
 9. Які особливості синтактичних помилок.
 
-
-**Література**
+## Література
 1. Microsoft Learn. C# documentation – get started, tutorials, reference [Електронний ресурс]. – Режим доступу: https://learn.microsoft.com/uk-ua/dotnet/csharp/tour-of-csharp/
 2. Microsoft Learn. Посібник із C# – керована мова .NET [Електронний ресурс]. – Режим доступу: https://learn.microsoft.com/en-us/dotnet/csharp/
 3. Microsoft Learn. .NET documentation [Електронний ресурс]. – Режим доступу: https://learn.microsoft.com/uk-ua/dotnet/?view=net-9.0-pp
